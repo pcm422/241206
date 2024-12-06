@@ -32,7 +32,7 @@ with connection.cursor() as cursor:
     # cursor.execute(sql, ('11', '1', '2', datetime.now()))
     # connection.commit()
     # sql = "INSERT INTO sales_items (sales_record_id, product_id, quantity, created_at) VALUES (%s, %s, %s, %s)"
-    # cursor.execute(sql, ('11', '9', '5', datetime.now()))
+    # cursor.execute(sql, ('11', '10', '5', datetime.now()))
     # connection.commit()
     
     # # 문제4: order_records 테이블에 발주이력을 3건 생성해주세요. (재료는 자유롭게 정해주세요)
